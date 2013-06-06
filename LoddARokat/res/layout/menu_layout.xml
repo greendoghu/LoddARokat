@@ -18,7 +18,7 @@
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
     <Button
-        android:id="@+id/button1"
+        android:id="@+id/gameButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
@@ -28,22 +28,22 @@
         android:layout_marginRight="20dp"
         android:text="Játék" />
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/rulesButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_alignParentRight="true"
-        android:layout_below="@+id/button1"
+        android:layout_below="@+id/gameButton"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
         android:text="Szabály" />
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/exitButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_alignParentRight="true"
-        android:layout_below="@+id/button2"
+        android:layout_below="@+id/rulesButton"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
         android:text="Kilépés" />
